@@ -4,6 +4,12 @@
 
 根仓库只保留少量说明文件，不管理业务代码。
 
+仓库地址：
+
+- 根工作区：https://github.com/zhubn123/vibe-verse
+- 后端：https://github.com/zhubn123/vibe-verse-server
+- 前端：https://github.com/zhubn123/vibe-verse-web
+
 ```text
 vibe-verse/
 ├─ AGENTS.md
