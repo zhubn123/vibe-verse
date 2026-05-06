@@ -1,0 +1,6 @@
+[submodule "vibe-verse-server"]
+	path = vibe-verse-server
+	url = https://github.com/zhubn123/vibe-verse-server.git
+[submodule "vibe-verse-web"]
+	path = vibe-verse-web
+	url = https://github.com/zhubn123/vibe-verse-web.git
