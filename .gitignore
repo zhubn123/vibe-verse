@@ -1,37 +1,25 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Local/private workspace files
+/LOCAL.md
+/docs/local/
+.env
+*.log
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Child repositories managed independently
+/vibe-verse-server/
+/vibe-verse-web/
 
-### IntelliJ IDEA ###
-.idea
+# IDE and OS files
+.idea/
+.vscode/
 *.iws
 *.iml
 *.ipr
+.DS_Store
+Thumbs.db
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Build/dependency output that should not live in the root workspace
+target/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Other ###
-/docs/local
-/src/main/resources/application-local.yml
+dist/
+node_modules/
+.m2/
